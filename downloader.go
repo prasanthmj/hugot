@@ -12,7 +12,7 @@ import (
 
 	"github.com/gomlx/go-huggingface/hub"
 
-	"github.com/knights-analytics/hugot/util"
+	"github.com/prasanthmj/hugot/util"
 )
 
 // DownloadOptions is a struct of options that can be passed to DownloadModel.

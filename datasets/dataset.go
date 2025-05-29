@@ -7,9 +7,9 @@ import (
 	"io"
 	"path/filepath"
 
-	"github.com/knights-analytics/hugot/pipelineBackends"
-	"github.com/knights-analytics/hugot/pipelines"
-	"github.com/knights-analytics/hugot/util"
+	"github.com/prasanthmj/hugot/pipelineBackends"
+	"github.com/prasanthmj/hugot/pipelines"
+	"github.com/prasanthmj/hugot/util"
 )
 
 func (s *SemanticSimilarityDataset) SetVerbose(v bool) {

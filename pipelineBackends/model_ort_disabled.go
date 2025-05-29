@@ -5,7 +5,7 @@ package pipelineBackends
 import (
 	"errors"
 
-	"github.com/knights-analytics/hugot/options"
+	"github.com/prasanthmj/hugot/options"
 )
 
 type ORTModel struct {

@@ -5,7 +5,7 @@ package hugot
 import (
 	"errors"
 
-	"github.com/knights-analytics/hugot/pipelineBackends"
+	"github.com/prasanthmj/hugot/pipelineBackends"
 )
 
 type XLATrainingOptions struct{}

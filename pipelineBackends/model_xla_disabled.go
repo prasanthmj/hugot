@@ -6,7 +6,7 @@ import (
 	"errors"
 	"io"
 
-	"github.com/knights-analytics/hugot/options"
+	"github.com/prasanthmj/hugot/options"
 )
 
 type XLAModel struct {

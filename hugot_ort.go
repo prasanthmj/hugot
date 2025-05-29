@@ -8,8 +8,8 @@ import (
 
 	ort "github.com/yalue/onnxruntime_go"
 
-	"github.com/knights-analytics/hugot/options"
-	"github.com/knights-analytics/hugot/util"
+	"github.com/prasanthmj/hugot/options"
+	"github.com/prasanthmj/hugot/util"
 )
 
 func NewORTSession(opts ...options.WithOption) (*Session, error) {
@@ -55,6 +55,11 @@ func (s *Session) initialiseORT() (bool, error) {
 			return false, fmt.Errorf("cannot find the ort library at: %s", *o.LibraryPath)
 		}
 		ort.SetSharedLibraryPath(*o.LibraryPath)
+	} else {
+		// Use platform-specific default if no library path is provided
+		if defaultPath := getDefaultLibraryPath(); defaultPath != "" {
+			ort.SetSharedLibraryPath(defaultPath)
+		}
 	}
 
 	// Start OnnxRuntime

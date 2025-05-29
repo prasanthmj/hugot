@@ -7,8 +7,8 @@ import (
 	"errors"
 	"io"
 
-	"github.com/knights-analytics/hugot/pipelineBackends"
-	"github.com/knights-analytics/hugot/pipelines"
+	"github.com/prasanthmj/hugot/pipelineBackends"
+	"github.com/prasanthmj/hugot/pipelines"
 )
 
 type Dataset interface {

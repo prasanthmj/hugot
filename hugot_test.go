@@ -11,8 +11,8 @@ import (
 	"github.com/gomlx/go-huggingface/hub"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/knights-analytics/hugot/pipelineBackends"
-	"github.com/knights-analytics/hugot/pipelines"
+	"github.com/prasanthmj/hugot/pipelineBackends"
+	"github.com/prasanthmj/hugot/pipelines"
 )
 
 //go:embed testData/tokenExpected.json

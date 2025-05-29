@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"slices"
 
-	"github.com/knights-analytics/hugot/options"
-	"github.com/knights-analytics/hugot/pipelineBackends"
-	"github.com/knights-analytics/hugot/pipelines"
+	"github.com/prasanthmj/hugot/options"
+	"github.com/prasanthmj/hugot/pipelineBackends"
+	"github.com/prasanthmj/hugot/pipelines"
 )
 
 // Session allows for the creation of new pipelines and holds the pipeline already created.

@@ -8,7 +8,7 @@ import (
 
 	ort "github.com/yalue/onnxruntime_go"
 
-	"github.com/knights-analytics/hugot/options"
+	"github.com/prasanthmj/hugot/options"
 )
 
 type ORTModel struct {

@@ -7,11 +7,11 @@ import (
 	"io"
 	"os"
 
-	"github.com/knights-analytics/hugot/datasets"
-	"github.com/knights-analytics/hugot/options"
-	"github.com/knights-analytics/hugot/pipelineBackends"
-	"github.com/knights-analytics/hugot/pipelines"
-	"github.com/knights-analytics/hugot/util"
+	"github.com/prasanthmj/hugot/datasets"
+	"github.com/prasanthmj/hugot/options"
+	"github.com/prasanthmj/hugot/pipelineBackends"
+	"github.com/prasanthmj/hugot/pipelines"
+	"github.com/prasanthmj/hugot/util"
 )
 
 type TrainingSession struct {
