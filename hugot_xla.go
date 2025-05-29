@@ -3,7 +3,7 @@
 package hugot
 
 import (
-	"github.com/knights-analytics/hugot/options"
+	"github.com/prasanthmj/hugot/options"
 )
 
 func NewXLASession(opts ...options.WithOption) (*Session, error) {

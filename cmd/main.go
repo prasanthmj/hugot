@@ -15,14 +15,14 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/knights-analytics/hugot/options"
-	"github.com/knights-analytics/hugot/pipelineBackends"
+	"github.com/prasanthmj/hugot/options"
+	"github.com/prasanthmj/hugot/pipelineBackends"
 
 	"github.com/mattn/go-isatty"
 	"github.com/urfave/cli/v2"
 
-	"github.com/knights-analytics/hugot"
-	"github.com/knights-analytics/hugot/util"
+	"github.com/prasanthmj/hugot"
+	"github.com/prasanthmj/hugot/util"
 )
 
 var modelPath string

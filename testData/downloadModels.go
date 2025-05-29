@@ -3,8 +3,8 @@ package main
 import (
 	"os"
 
-	"github.com/knights-analytics/hugot"
-	"github.com/knights-analytics/hugot/util"
+	"github.com/prasanthmj/hugot"
+	"github.com/prasanthmj/hugot/util"
 )
 
 // download the test models.

@@ -15,7 +15,7 @@ import (
 	"github.com/gomlx/gomlx/types/tensors"
 	"github.com/gomlx/onnx-gomlx/onnx"
 
-	"github.com/knights-analytics/hugot/options"
+	"github.com/prasanthmj/hugot/options"
 
 	_ "github.com/gomlx/gomlx/backends/xla"
 )

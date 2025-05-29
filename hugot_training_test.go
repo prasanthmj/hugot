@@ -12,10 +12,10 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/knights-analytics/hugot/datasets"
-	"github.com/knights-analytics/hugot/options"
-	"github.com/knights-analytics/hugot/pipelines"
-	"github.com/knights-analytics/hugot/util"
+	"github.com/prasanthmj/hugot/datasets"
+	"github.com/prasanthmj/hugot/options"
+	"github.com/prasanthmj/hugot/pipelines"
+	"github.com/prasanthmj/hugot/util"
 )
 
 func cosineSimilarityTester(x []float32, y []float32) float64 {

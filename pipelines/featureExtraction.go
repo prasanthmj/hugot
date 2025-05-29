@@ -8,9 +8,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/knights-analytics/hugot/options"
-	"github.com/knights-analytics/hugot/pipelineBackends"
-	"github.com/knights-analytics/hugot/util"
+	"github.com/prasanthmj/hugot/options"
+	"github.com/prasanthmj/hugot/pipelineBackends"
+	"github.com/prasanthmj/hugot/util"
 )
 
 // FeatureExtractionPipeline A feature extraction pipeline is a go version of

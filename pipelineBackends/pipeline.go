@@ -7,8 +7,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/knights-analytics/hugot/options"
-	"github.com/knights-analytics/hugot/util"
+	"github.com/prasanthmj/hugot/options"
+	"github.com/prasanthmj/hugot/util"
 )
 
 // BasePipeline can be embedded by a pipeline.

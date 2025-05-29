@@ -12,8 +12,8 @@ import (
 	"github.com/gomlx/gomlx/ml/train"
 	"github.com/gomlx/gomlx/types/tensors"
 
-	"github.com/knights-analytics/hugot/pipelineBackends"
-	"github.com/knights-analytics/hugot/pipelines"
+	"github.com/prasanthmj/hugot/pipelineBackends"
+	"github.com/prasanthmj/hugot/pipelines"
 )
 
 type Dataset interface {

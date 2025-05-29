@@ -3,8 +3,8 @@ package pipelineBackends
 import (
 	"fmt"
 
-	"github.com/knights-analytics/hugot/options"
-	"github.com/knights-analytics/hugot/util"
+	"github.com/prasanthmj/hugot/options"
+	"github.com/prasanthmj/hugot/util"
 )
 
 type Tokenizer struct {

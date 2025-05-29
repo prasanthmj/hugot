@@ -13,8 +13,8 @@ import (
 	"github.com/gomlx/gomlx/ml/train/optimizers"
 	"github.com/gomlx/gopjrt/dtypes"
 
-	"github.com/knights-analytics/hugot/pipelineBackends"
-	"github.com/knights-analytics/hugot/pipelines"
+	"github.com/prasanthmj/hugot/pipelineBackends"
+	"github.com/prasanthmj/hugot/pipelines"
 )
 
 type XLATrainingOptions struct {

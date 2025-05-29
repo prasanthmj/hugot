@@ -6,7 +6,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/knights-analytics/hugot/options"
+	"github.com/prasanthmj/hugot/options"
 )
 
 // FEATURE EXTRACTION
